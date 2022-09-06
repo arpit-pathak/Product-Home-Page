@@ -42,11 +42,6 @@ nav>img:first-child {
     font-weight: 900;
 }
 
-/* nav last image  */
-nav>img:last-child {
-    width: 250px;
-}
-
 /* intro section  */
 .intro-section {
     display: flex;
@@ -57,6 +52,8 @@ nav>img:last-child {
 /*Left section*/
 .left-section {
     margin-top: 2rem;
+    width: 55%;
+    padding: 0 0 0 1rem;
 }
 
 /* new product  */
@@ -96,9 +93,10 @@ nav>img:last-child {
 }
 
 .text {
-    padding: 2rem -0.5rem;
+    /* padding: 2rem -0.5rem; */
     padding: 2rem 0;
-    width: 50rem;
+    /* width: 50rem; */
+    font-size: 1.1rem;
     color: #a5a5a5;
 }
 
@@ -196,4 +194,99 @@ h4 {
 .right-section button {
     margin-top: 2rem;
     cursor: pointer;
+}
+
+
+/* media queries for max width of 768px */
+
+@media only screen and (max-width:768px) {
+    html {
+        font-size: 85%;
+    }
+   
+    nav {
+        height: 16vh;
+        flex-direction: column;
+        background-color: #cbcbcb;
+        gap: 0rem;
+        position: sticky;
+        top: 0;
+    }
+    
+    nav>img:first-child {
+        width: 100px;
+    }
+
+    .nav-items {
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+        gap: 2.5rem;
+        padding: 2px 0;
+    }
+
+    /* nav last image  */
+    nav>img:last-child {
+        width: 150px;
+    }
+
+    .intro-section {
+        flex-direction: column;
+        height: auto;
+        justify-content: unset;
+    }
+
+    .left-section {
+        text-align: center;
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+
+    .left-section h1 {
+        font-size: 4.5rem;
+    }
+
+    .sub-headlines {
+        margin: 1.5rem 2rem;
+        font-size: 1rem;
+    }
+
+    .text {
+        padding: 1rem 2rem;
+    }
+
+    .action-btns {
+        justify-content: center;
+    }
+
+    .action-btn {
+        margin: 1rem 0;
+    }
+
+    /* right section */
+
+    .headphone-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .discount {
+        width: 80px;
+        bottom: 4.5rem;
+        left: 1.2rem;
+    }
+
+    .discount-content {
+        bottom: 5.6rem;
+        left: 2.3rem;
+    }
+
+    .discount-content h1 {
+        font-size: 2rem;
+    }
+
+    /* headphone image */
+    .headphone-div img:last-child {
+        width: 85%;
+    }
 }
