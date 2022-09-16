@@ -8,6 +8,10 @@
 Screenshot
 
 ![project 07 screenshot](./screenshots/Desktop%2007.png)
+![project 07 screenshot](./screenshots/7mockup.png)
+![mobile view](./screenshots/project7.gif)
+![mobile view](./screenshots/project7.mp4)
+./screenshots/project7.mp4
 
 ## What I learned from this Project? 
 
@@ -19,8 +23,11 @@ Screenshot
 
 
 ## Time taken to finish this project ⏳
-- 3 hours
+- 3 hours + 35 min for making responsive
 ---
 ![HTML CSS](https://img.shields.io/badge/HTML-CSS-orange)
-![author](https://img.shields.io/badge/By-Arpit--Pathak-blue)
+![author](https://img.shields.io/badge/author-Arpit--Pathak-blue)
 ![Live Project](https://img.shields.io/badge/Live--Project-7-green)
+
+![Responsive yes](https://img.shields.io/badge/Responsive-yes-ecff19)
+![Deployed yes](https://img.shields.io/badge/Deployed-yes-38B2AC)
