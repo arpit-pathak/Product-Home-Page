@@ -8,10 +8,14 @@
 Screenshot
 
 ![project 07 screenshot](./screenshots/Desktop%2007.png)
+
+Website on different devices
+
 ![project 07 screenshot](./screenshots/7mockup.png)
-![mobile view](./screenshots/project7.gif)
-![mobile view](./screenshots/project7.mp4)
-./screenshots/project7.mp4
+
+Mobile view 📲
+
+![mobile view](./screenshots/project07.gif)
 
 ## What I learned from this Project? 
 
